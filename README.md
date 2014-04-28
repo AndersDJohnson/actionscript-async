@@ -1,7 +1,10 @@
 actionscript-async
 ==================
 
-Async utilities for ActionScript.
+Async utilities for ActionScript, in the style of the [async] module for Node.js.
+
+Possible alternative to [AS3Commons Async].
+
 
 ```as
 import com.AndersDJohnson.async.Async;
@@ -41,3 +44,6 @@ Async.tasks( [
   // results is now equal to [ ['one', 1], ['two', 2] ] 
 }
 ```
+
+[async]: https://github.com/caolan/async
+[AS3Commons Async]: http://www.as3commons.org/as3-commons-async/index.html
